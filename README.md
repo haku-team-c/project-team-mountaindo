@@ -5,4 +5,10 @@ This is our MountaIndo, help you all explore the beauty of **Indonesia** especia
 ## About Our Project
 
 - This website using Bootstrap v4.3.1
-- Design by ![Figma](https://www.figma.com/file/GEpRxUnvOG3HtSl5HwVpvjnQ/mountaindo.com)
+- Design by [Figma](https://www.figma.com/file/GEpRxUnvOG3HtSl5HwVpvjnQ/mountaindo.com)
+
+### Screenshoot
+
+cooming soon :D
+
+thank you.
