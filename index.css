@@ -4,6 +4,7 @@
   background-position: center center;
   height: 100vh;
   background-position-y: -250px;
+  background-attachment: fixed;
 }
 
 nav a img {
@@ -21,4 +22,35 @@ ul.navbar-nav:link {
 .jumbotron span {
   display: block;
   color: aliceblue;
+}
+
+.point-down a img {
+  margin-top: 20px;
+  height: 30px;
+}
+
+.page-2 {
+  padding-top: 40px;
+}
+
+.page-3 {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.page-3 h1 {
+  margin-bottom: 30px;
+}
+
+.partner-kami {
+  background-color: #999999;
+  height: 100vh;
+}
+
+.col-sm-4 img {
+  height: 190px;
+}
+
+.partner-kami h1 {
+  margin: 70px auto;
 }
