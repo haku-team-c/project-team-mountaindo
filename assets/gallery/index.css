@@ -1,0 +1,50 @@
+html,
+body,
+.container {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-fluid {
+  padding-top: 2px;
+  font-family: "Sniglet", cursive;
+}
+
+/* Navigation */
+.navigation {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.navigation img {
+  height: 90px;
+  margin-left: 70px;
+}
+
+.navigation-link {
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.navigation-link a {
+  color: black;
+  font-size: 25px;
+}
+.navigation-link a:hover {
+  color: blue;
+}
+.navigation-wrapper {
+  background-image: url("../images/home/mount.png");
+}
+
+/* Jumbotron */
+.jumbotron-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.jumbotron {
+  background: transparent;
+}
