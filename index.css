@@ -1,0 +1,24 @@
+.container-fluid {
+  position: relative;
+  background-image: url(/assets/images/home/mount.png);
+  background-position: center center;
+  height: 100vh;
+  background-position-y: -250px;
+}
+
+nav a img {
+  height: 70px;
+}
+
+ul.navbar-nav:link {
+  color: black;
+}
+
+.jumbotron img {
+  height: 400px;
+}
+
+.jumbotron span {
+  display: block;
+  color: aliceblue;
+}
