@@ -15,10 +15,15 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
       <a class="navbar-brand" href="#"
         ><img src="/assets/images/home/mountaindo.png" alt="MountaIndo"
       /></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+  aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="https://mountaindo.netlify.com/about/"
@@ -134,18 +139,24 @@
             </div>
           </div>
         </section>
-        <footer>
-          <span>2019 &copy; Built with <svg-icon>
-            <src href="sprite.svg#si-glyph-heart" />
-          </svg-icon> by <a href="http://mountaindo.netlify.com">MountaIndo.com</a></span>
-        </footer>
       </div>
+      <footer>
+        <div class="row">
+          <div class="col-sm-12">
+            <span
+              >2019 &copy; Built with
+              <img src="/assets/images/home/like.svg" alt="Heart" /> by
+              <a href="http://mountaindo.netlify.com">MountaIndo.com</a></span
+            >
+          </div>
+        </div>
+      </footer>
     </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      src="jquery-3.3.1.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
