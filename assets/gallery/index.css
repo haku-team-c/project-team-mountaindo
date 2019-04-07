@@ -32,7 +32,7 @@ body,
   font-size: 25px;
 }
 .navigation-link a:hover {
-  color: blue;
+  color: white;
 }
 .navigation-wrapper {
   background-image: url("../images/home/mount.png");
@@ -43,8 +43,45 @@ body,
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
+  height: 700px;
 }
 .jumbotron {
   background: transparent;
+}
+
+.jumbotron-wrapper img {
+  height: 400px;
+  margin-bottom: 40px;
+}
+
+.jumbotron-wrapper p {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+/* Main */
+main img {
+  width: 600px;
+  height: 340px;
+}
+
+main {
+  text-align: center;
+}
+
+main img {
+  margin-bottom: 20px;
+}
+
+main h1 {
+  margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+  color: white;
+  background: black;
+  margin-top: 50px;
 }
