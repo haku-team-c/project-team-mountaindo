@@ -9,6 +9,6 @@ This is our MountaIndo, help you all explore the beauty of **Indonesia** especia
 
 ### Screenshoot
 
-coming soon :D
+![Home](assets/images/home.png)
 
 thank you.
