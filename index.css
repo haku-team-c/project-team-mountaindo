@@ -12,6 +12,10 @@ body {
   background-attachment: fixed;
 }
 
+nav {
+  background-color: rgba(255, 255, 255, 0.295);
+}
+
 nav a img {
   height: 70px;
 }
@@ -35,12 +39,12 @@ ul.navbar-nav:link {
 }
 
 .page-2 {
+  margin: 150px auto;
   padding-top: 40px;
 }
 
 .page-3 {
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0);
 }
 
 .page-3 h1 {
@@ -48,8 +52,10 @@ ul.navbar-nav:link {
 }
 
 .partner-kami {
-  background-color: #999999;
+  position: relative;
+  background-image: url(/assets/images/home/lucas-clara-579404-unsplash.png);
   height: 100vh;
+  margin-bottom: 50px;
 }
 
 .col-sm-4 img {
@@ -57,10 +63,11 @@ ul.navbar-nav:link {
 }
 
 .partner-kami h1 {
-  margin: 70px auto;
+  margin: 170px auto;
 }
 
 footer {
+  position: relative;
   margin: -40px auto;
   background-color: black;
   padding-top: 20px;

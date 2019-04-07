@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -16,7 +16,7 @@
 
   <body>
     <nav class="navbar navbar-expand-sm navbar-light fixed-top">
-      <a class="navbar-brand" href="#"
+      <a class="navbar-brand page-scroll" href="#home"
         ><img src="/assets/images/home/mountaindo.png" alt="MountaIndo"
       /></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -59,7 +59,7 @@
           >
           <span>serta peduli terhadap pelestarian lingkungan</span>
           <div class="point-down">
-            <a href="#"><img src="/assets/images/home/pointing-down.png"/></a>
+            <a href="#page-2" class="page-scroll"><img src="/assets/images/home/pointing-down.png"/></a>
           </div>
         </div>
         <section class="page-2" id="page-2">
@@ -153,7 +153,6 @@
       </footer>
     </div>
 
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="jquery-3.3.1.min.js"
@@ -170,5 +169,9 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="/smooth-scroll.js"></script>
+    <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
   </body>
 </html>
